@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "me.mocha.nukkitplugin"
-version = "1.0-SNAPSHOT"
+version = "0.0.1-alpha"
 
 repositories {
     mavenCentral()
@@ -23,6 +23,7 @@ tasks {
         dependencies {
             exclude(dependency("cn.nukkit:nukkit:1.0-SNAPSHOT"))
         }
+        archiveClassifier.set("")
     }
 }
 
