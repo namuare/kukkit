@@ -1,0 +1,10 @@
+name: Kukkit
+author: hwangseonu
+version: 0.0.1-alpha
+website: https://github.com/namuare/kukkit
+description: kotlin runtime provider for nukkitx
+
+main: me.mocha.nukkitplugin.kukkit.Kukkit
+api:
+  - 1.0.0
+
